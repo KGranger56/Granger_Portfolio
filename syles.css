@@ -1,8 +1,20 @@
+a {
+  text-decoration: none !important;
+}
+
+.box {
+  width: 50%;
+  max-height: 170px;
+  padding: 12px 12px;
+  margin: 2px 2px;
+}
+
 .primary {
   color: white;
   text-align: center;
   font-family: -apple-system, Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
     "Helvetica Neue", sans-serif;
+  text-decoration: none;
 }
 
 #know-me {
@@ -16,12 +28,48 @@
 }
 
 .name {
-  padding-top: 276px;
   font-weight: bold;
   font-size: 24px;
+}
+
+.footer {
+  text-decoration: none;
 }
 
 .job {
   font-weight: bold;
   font-size: 72px;
+}
+
+.back-pic {
+  background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/020/609/original/Kelly_1_%283%29.jpg?1636250288);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-right: 20%;
+  margin-left: 20%;
+}
+
+.rope {
+  background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/012/899/original/Top_Rope.jpg?1626221700);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-right: 20%;
+  margin-left: 20%;
+}
+
+.sky {
+  background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/016/288/original/pexels-paul-voie-2627945.jpg?1630290405);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-right: 20%;
+  margin-left: 20%;
+}
+
+.rope,
+.sky {
+  padding: 9% 75%;
+  margin: 0 auto;
 }
