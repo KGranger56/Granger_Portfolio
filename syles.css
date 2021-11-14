@@ -2,11 +2,23 @@ a {
   text-decoration: none !important;
 }
 
+.about-me {
+  color: darkorchid;
+}
+
 .box {
   width: 50%;
   max-height: 170px;
   padding: 12px 12px;
   margin: 2px 2px;
+}
+
+.btn.contact-me {
+  text-align: left;
+  border-radius: 50%;
+  width: fit-content;
+  padding: 18px 30px;
+  color: darkorchid;
 }
 
 .primary {
@@ -21,12 +33,13 @@ a {
   display: block;
   margin: 0 auto;
   text-align: center;
-  border-radius: 44%;
+  border-radius: 50%;
   width: fit-content;
   padding: 18px 30px;
 }
 
-.name {
+.name,
+.about-me {
   font-weight: bold;
   font-size: 24px;
 }
@@ -36,9 +49,30 @@ a {
   margin: 0 auto;
 }
 
-.job {
+.job,
+.about-name {
   font-weight: bold;
   font-size: 72px;
+}
+
+.about-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+}
+
+.about-col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+img.about-pic {
+  flex-shrink: 0;
+  min-width: 100%;
+  min-height: 100%;
 }
 
 .back-pic {
@@ -48,6 +82,11 @@ a {
   background-position: center center;
   margin-right: 20%;
   margin-left: 20%;
+}
+
+p {
+  color: white;
+  line-height: 1.5;
 }
 
 .rope {
@@ -68,10 +107,28 @@ a {
   margin-left: 20%;
 }
 
+.about-name {
+  text-align: left;
+  font-weight: bold;
+  font-size: 72px;
+}
+
 .rope,
 .sky {
   padding: 9% 75%;
   margin: 0 auto;
+}
+
+.fa-facebook {
+  color: #2d88ff;
+}
+
+.fa-linkedin {
+  color: #0a66c2;
+}
+
+.fa-github {
+  color: rgb(240 246 252 / 70%);
 }
 
 @media (max-width: 576px) {
