@@ -2,10 +2,6 @@ a {
   text-decoration: none !important;
 }
 
-.about-me {
-  color: darkorchid;
-}
-
 .box {
   width: 50%;
   max-height: 170px;
@@ -21,11 +17,23 @@ a {
   color: darkorchid;
 }
 
+.info {
+  text-align: center;
+  color: white;
+}
+
 .primary {
   color: white;
   text-align: center;
   font-family: -apple-system, Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
     "Helvetica Neue", sans-serif;
+}
+
+.about-me,
+.colorful,
+.connect,
+.projects-title {
+  color: darkorchid;
 }
 
 #know-me {
@@ -86,12 +94,18 @@ img.about-pic {
   margin-left: 20%;
 }
 
+.email {
+  color: white;
+  font-size: 24px;
+}
+
 p {
   color: white;
   line-height: 1.5;
 }
 
-.project {
+.project,
+.colorful {
   text-align: center;
   color: darkorchid;
   font-size: 24px;
