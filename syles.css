@@ -73,6 +73,8 @@ img.about-pic {
   flex-shrink: 0;
   min-width: 100%;
   min-height: 100%;
+  border: 1px solid darkorchid;
+  border-radius: 6px;
 }
 
 .back-pic {
@@ -87,6 +89,12 @@ img.about-pic {
 p {
   color: white;
   line-height: 1.5;
+}
+
+.project {
+  text-align: center;
+  color: darkorchid;
+  font-size: 24px;
 }
 
 .rope {
