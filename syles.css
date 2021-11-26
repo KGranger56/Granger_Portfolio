@@ -193,8 +193,13 @@ ul {
     border-radius: 50%;
   }
 
-  .back-pic {
+  .back-pic,
+  div.col.about-info {
     margin-right: 5%;
     margin-left: 5%;
+  }
+
+  div.col.about-info {
+    flex: 1 0 0%;
   }
 }
