@@ -2,6 +2,13 @@ a {
   text-decoration: none !important;
 }
 
+.displayProject {
+  display: block;
+  margin: 0 auto;
+  font-size: 2rem;
+  padding-bottom: .5rem;
+}
+
 .box {
   width: 50%;
   max-height: 170px;
@@ -17,12 +24,22 @@ a {
   color: darkorchid;
 }
 
+.homeProjects {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-left: 3rem;
+  justify-content: center;
+  color: white;
+}
+
 .info {
   text-align: center;
   color: white;
 }
 
 .primary {
+  padding-top: 2rem;
   color: white;
   text-align: center;
   font-family: -apple-system, Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
@@ -32,7 +49,8 @@ a {
 .about-me,
 .colorful,
 .connect,
-.projects-title {
+.projects-title
+.project {
   color: darkorchid;
 }
 
@@ -46,10 +64,10 @@ a {
   padding: 18px 30px;
 }
 
-.name,
-.about-me {
+.name {
   font-weight: bold;
   font-size: 24px;
+  padding-top: 42rem;
 }
 
 .footer {
@@ -57,32 +75,10 @@ a {
   margin: 0 auto;
 }
 
-.job,
-.about-name {
+.job {
+  padding-top: 1rem;
   font-weight: bold;
   font-size: 72px;
-}
-
-.about-info {
-  display: flex;
-  flex-direction: column;
-  justify-content: left;
-  align-items: left;
-}
-
-.about-col {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
-}
-
-img.about-pic {
-  flex-shrink: 0;
-  min-width: 100%;
-  min-height: 100%;
-  border: 1px solid darkorchid;
-  border-radius: 6px;
 }
 
 .back-pic {
@@ -94,11 +90,6 @@ img.about-pic {
   margin-left: 20%;
 }
 
-.email {
-  color: white;
-  font-size: 24px;
-}
-
 p {
   color: white;
   line-height: 1.5;
@@ -107,7 +98,6 @@ p {
 .project,
 .colorful {
   text-align: center;
-  color: darkorchid;
   font-size: 24px;
 }
 
@@ -129,18 +119,14 @@ p {
   margin-left: 20%;
 }
 
-.about-name {
-  text-align: left;
-  font-weight: bold;
-  font-size: 72px;
-}
-
 .rope,
 .sky {
   padding: 9% 75%;
   margin: 0 auto;
 }
 
+
+/*Footer*/
 .fa-facebook {
   color: #2d88ff;
 }
@@ -193,13 +179,12 @@ ul {
     border-radius: 50%;
   }
 
-  .back-pic,
-  div.col.about-info {
+  .back-pic {
     margin-right: 5%;
     margin-left: 5%;
   }
 
-  div.col.about-info {
-    flex: 1 0 0%;
+  .name {
+    padding-top: 4rem;
   }
 }
