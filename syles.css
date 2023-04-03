@@ -82,12 +82,13 @@ a {
 }
 
 .back-pic {
-  background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/020/609/original/Kelly_1_%283%29.jpg?1636250288);
+  background-image: url(/images/crop.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
   margin-right: 20%;
   margin-left: 20%;
+
 }
 
 p {
