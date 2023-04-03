@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  justify-content: center;
+  text-align: center;
+  background-color: slategray;
+  max-width: 45rem;
+  padding-bottom: 4rem;
+  margin-top: 3rem;
+}
+
+button {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  width:9rem;
+  border-radius: 4rem;
+  font-size: 1rem;
+}
+
+.time, .currentTime {
+  font-size: 3rem;
+}
