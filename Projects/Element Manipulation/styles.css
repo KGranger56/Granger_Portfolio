@@ -9,12 +9,20 @@
   margin-top: 3rem;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
 
-ul.second, li {
+ul, li {
   list-style-type: none;
   padding-left: 0;
 }
 
 h3 {
   margin-bottom: .4rem;
+}
+
+div.pickme{
+  padding-top: 1rem;
 }

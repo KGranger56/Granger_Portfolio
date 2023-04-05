@@ -4,6 +4,8 @@ let button = document.getElementsByTagName('button');
 let list2 = document.getElementsByClassName('second');
 let secondList= list2[0].children;
 
+
+//function for list 1
 function Manipulation(){
   for(let v=0; v < list.length; v++){
     list[v].setAttribute('id', '#');
@@ -19,6 +21,7 @@ function Manipulation(){
 }
 
 
+//function for list 2
 function Classes(){
   for(let v=0; v < secondList.length; v++){
     if(secondList[v].className =='first'){
@@ -32,3 +35,19 @@ function Classes(){
     console.log(secondList);
   }
 };
+
+//Adding a new element
+let h1 = document.getElementsByTagName('h1')[0]
+let div = document.createElement('div')
+
+function AddElement(){
+
+const textInside=document.createTextNode('Hello World')
+
+div.style.color="blue";
+div.style.fontSize="2rem";
+div.setAttribute('id', 'test')
+div.appendChild(textInside)
+
+h1.before(h1, div)
+}
