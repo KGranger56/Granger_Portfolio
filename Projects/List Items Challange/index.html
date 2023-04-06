@@ -11,10 +11,10 @@
 <div class="listItems">
   <h1>List Items Challange</h1>
   <ul>
-    <li>My Item</li>
-    <li>Another Item</li>
-    <li>Wow Cool</li>
-    <li>New Color</li>
+    <li onclick="strike(this)">My Item<button class='btn' onclick="remove(this)">X</button></li>
+    <li onclick="strike(this)">Another Item<button class='btn' onclick="remove(this)">X</button></li>
+    <li onclick="strike(this)">Wow Cool<button class='btn' onclick="remove(this)">X</button></li>
+    <li onclick="strike(this)">New Color<button class='btn' onclick="remove(this)">X</button></li>
   </ul>
   <input type="text" name="newItem" class="newItem" placeholder="A new item" onfocus="this.value=''" >
   <button id="clicker" onclick="AddItem()">+Add</button>

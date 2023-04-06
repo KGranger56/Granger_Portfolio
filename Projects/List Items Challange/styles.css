@@ -26,3 +26,17 @@ h3 {
 div.pickme{
   padding-top: 1rem;
 }
+
+.btn {
+  border-radius: 1rem;
+  background-color: darkgrey;
+}
+
+.btn:hover {
+  background-color: white;
+}
+
+.red {
+  color: red;
+  text-decoration:line-through;
+}
