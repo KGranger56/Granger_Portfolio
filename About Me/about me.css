@@ -31,6 +31,12 @@ img.about-pic {
   font-size: 24px;
 }
 
+.contact-me {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+}
+
 @media (max-width: 576px) {
   .aboutMeContainer > .container {
     padding: 5px 5px;
@@ -68,4 +74,14 @@ img.about-pic {
     margin-block-end: 0em;
   }
 
+}
+
+
+.skills{
+  color: blueviolet;
+}
+
+table {
+  text-align: center;
+  color: white;
 }
