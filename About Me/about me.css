@@ -37,6 +37,20 @@ img.about-pic {
   justify-content: center;
 }
 
+
+.skills{
+  color: blueviolet;
+}
+
+table {
+  text-align: center;
+  color: white;
+}
+
+.mobile {
+  display: none;
+}
+
 @media (max-width: 576px) {
   .aboutMeContainer > .container {
     padding: 5px 5px;
@@ -74,14 +88,11 @@ img.about-pic {
     margin-block-end: 0em;
   }
 
-}
+  .aboutTable {
+    display: none;
+  }
 
-
-.skills{
-  color: blueviolet;
-}
-
-table {
-  text-align: center;
-  color: white;
+  .mobile{
+    display: block;
+  }
 }
