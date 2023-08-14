@@ -89,3 +89,7 @@ div[class^="col-"]{
 div[class^="row-"]{
   margin-bottom: 1rem;
 }
+
+ul.footer {
+  padding: 0rem;
+}

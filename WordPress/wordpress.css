@@ -21,6 +21,9 @@ li, ul {
   list-style-type: none;
 }
 
+ul.footer {
+  padding: 0rem;
+}
 
 .row-1, .row-2 {
   display: flex;
