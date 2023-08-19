@@ -18,7 +18,7 @@ let maxSlide = slides.length - 1;
 nextSlide.addEventListener("click", function () {
   // check if current slide is the last and reset current slide
   if (curSlide === maxSlide) {
-    curSlide = 0;
+    curSlide = -1;
   } else {
     curSlide++;
   }

@@ -1,0 +1,112 @@
+hr.loginBar {
+  width: 90%
+}
+
+.landing-page {
+  display: flex;
+  margin: 0 auto;
+  padding-top: 6rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 112px;
+  padding-top: 72px;
+}
+
+h1 {
+  color: var(--blue-color);
+  font-size: 3.5rem;
+  margin-bottom: 0rem;
+}
+
+h2 {
+  margin-top: 0rem;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: normal;
+  width: auto;
+}
+
+[class^="col"] {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.col-1 {
+  padding-top: 5.5rem;
+}
+
+.create-a-page {
+  text-align: center;
+  font-size: 14px;
+}
+
+/*Log In Card*/
+.signin-info {
+  float: right;
+  text-align: center;
+  background-color: white;
+  padding: 1rem 1rem;
+  border-radius: 8px;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+  box-sizing: border-box;
+  margin: 40px 0 0;
+  padding: 20px 0 28px;
+  width: 396px;
+}
+
+#email-phone, #password {
+  font-size: 17px;
+  padding: 14px 16px;
+  width: 330px;
+  border-radius: 6px;
+  border: 1px solid #dddfe2;
+  height: 22px;
+  line-height: 16px;
+  color: var(--secondary-text-color);
+  margin-bottom: 1rem;
+}
+
+#email-phone:focus, #password:focus {
+  outline-color: #1877f2;
+}
+
+a.log-in-btn {
+  display:flex;
+  margin: 0 auto;
+  font-size: 20px;
+  line-height: 48px;
+  padding: 0 2px;
+  width: 360px;
+  background-color: var(--blue-color);
+  color: white;
+  border-radius: 6px;
+  border: none;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  justify-content: center;
+}
+
+.forgot-password {
+  color: #1877f2;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.new-account {
+  margin-top: 1rem;
+  background-color: var(--green-color);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 17px;
+  line-height: 48px;
+  padding: 0 16px;
+}
+
+a {
+  text-decoration: none;
+}

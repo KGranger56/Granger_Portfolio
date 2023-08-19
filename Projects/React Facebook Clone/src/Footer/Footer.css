@@ -1,0 +1,63 @@
+hr.languageBar{
+  width: 97%;
+}
+
+ul, li {
+  text-decoration: none;
+  list-style: none;
+  padding-left: 0px;
+}
+
+div.footer {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  background: white;
+  z-index: 10;
+}
+
+.footer-table{
+  margin: 0 auto;
+  width: 980px;
+  padding: 20px 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+div >ul {
+  width: 980px;
+}
+
+.footer-button {
+  height: 18px;
+  line-height: 18px;
+  border: 1px solid var(--secondary-text-color);
+  border-radius: 2px;
+  box-sizing: content-box;
+  font-size: 12px;
+  -webkit-font-smoothing: antialiased;
+  font-weight: bold;
+  justify-content: center;
+  padding: 0 8px;
+  position: relative;
+  text-align: center;
+  text-shadow: none;
+  vertical-align: middle;
+}
+
+.footer-row-1 > li, .footer-row-2 > li, .footer-row-3 > li, .footer-row-4 > li, .footer-row-5 > li{
+  justify-content: center;
+  padding-left: 1rem;
+}
+
+.footer-row-2, .footer-row-3{
+  width: 1000px;
+}
+
+[class^="footer-row-"] {
+  display: flex;
+  flex-direction: row;
+  padding-right: 1rem;
+}
