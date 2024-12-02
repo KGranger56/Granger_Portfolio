@@ -17,6 +17,10 @@ h3 {
   color: darkorchid;
 }
 
+img {
+  max-height: 100px;
+}
+
 li, ul {
   list-style-type: none;
 }
